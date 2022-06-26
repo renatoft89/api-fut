@@ -2,7 +2,7 @@ const tabela = require("../scraping");
 
 const serieAmodels = async () => {
   const result = await tabela()
-  console.log({model: "xablau"});
+  console.log(result);
   return result;
 };
 
