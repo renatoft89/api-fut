@@ -1,6 +1,6 @@
 # Boas-vindas ao repositório do projeto puppeteer!
 
-Este projeto tem como objetivo: Conhecer a biblioteca Puppeteer, realizando testes 
+Este projeto tem como objetivo: Conhecer a biblioteca Puppeteer, realizando testes de Web scraping;
 <br>
 coletando dados da classificação do campeonato Brasileiro serie A 2022
 
