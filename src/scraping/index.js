@@ -1,7 +1,10 @@
 const puppeteer = require('puppeteer');
 
 const tabela = async () => { 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: ['--use-gl=egl'],
+    });
     const page = await browser.newPage();
     await page.goto('https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a');
     
