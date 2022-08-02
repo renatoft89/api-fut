@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 
 const tabela = async () => { 
     const browser = await puppeteer.launch({
-      headless: true,
+      headless: false,
       args: ['--no-sandbox'] ,
     });
     const page = await browser.newPage();
