@@ -2,8 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 
-const serieArouter = require('./brasileiraoA');
+const serieRouter = require('./brasileirao/index');
 
-router.use('/brasileirao', serieArouter);
+router.use('/brasileirao', serieRouter);
 
 module.exports = router;

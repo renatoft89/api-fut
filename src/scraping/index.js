@@ -1,15 +1,16 @@
 const puppeteer = require('puppeteer');
 
-const tabela = async () => { 
+const tabela = async (serie) => { 
     const browser = await puppeteer.launch({
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
       ],
     });
-    const page = await browser.newPage();
-    await page.goto('https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-a');
-    
+    const page = await browser.newPage(serie);
+    await page.goto(`https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-${ serie }`);
+    // await page.goto(`https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-${serie}/`);
+
     const tabelaSerieA = await page.evaluate(() => {
       const clubes = Array.from(document.querySelectorAll('table tr td span.hidden-xs', table => table.textContent)).map(club => club.innerText); 
       const pontos = Array.from(document.querySelectorAll('table tr.expand-trigger th', table => table.textContent)).map(pt => pt.innerText);
