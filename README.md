@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto puppeteer!
+# Boas-vindas ao repositório do projeto api-fut!
 
 Este projeto tem como objetivo: Conhecer a biblioteca Puppeteer, realizando testes de Web scraping;
 <br>
