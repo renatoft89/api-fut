@@ -4,6 +4,13 @@ Este projeto tem como objetivo: Conhecer a biblioteca Puppeteer, realizando test
 <br>
 coletando dados da classificação do campeonato Brasileiro serie A 2022
 
+## Stacks
+
+*node.js
+*express
+*puppeter
+
+
 <br />
 
 # Orientações
