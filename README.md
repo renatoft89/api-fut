@@ -18,19 +18,19 @@ coletando dados da classificação do campeonato Brasileiro serie A 2022
   <br/>
   > npm run dev
   <br/>
-  > faça uma requisição para a URL: http://localhost:3002/brasileirao
+  > faça uma requisição para a URL: http://localhost:3002/brasileirao/?serie=a
   <br/>
   > RETORNO
 
   {
     <br/>
-      'clubes': [],
+      'clubes': ["Palmeiras - SP","Internacional - RS","Fluminense - RJ","Corinthians - SP","Flamengo - RJ","Athletico Paranaense - PR","Atlético Mineiro - MG","América Fc Saf - MG","Fortaleza - CE","Red Bull Bragantino - SP","Goiás - GO","Botafogo - RJ","Santos - SP","São Paulo - SP","Ceará - CE","Coritiba - PR","Cuiabá Saf - MT","Atlético - GO","Avaí - SC","Juventude - RS"],
     <br/>
-      'pontos': [],
+      'pontos': [...],
     <br/>
-      'jogos':[],
+      'jogos':[...],
     <br/>
-      'escudos': []
+      'escudos': [...]
     <br/>
   }
 
