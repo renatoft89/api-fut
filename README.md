@@ -2,17 +2,15 @@
 
 Este projeto tem como objetivo: Conhecer a biblioteca Puppeteer, realizando testes de Web scraping;
 <br>
-coletando dados da classificação do campeonato Brasileiro serie A 2022
+coletando dados da classificação do campeonato Brasileiro serie A 2023
 
 ## Stacks
 
-*node.js
-*express
-*puppeter
-
+- node.js
+- express
+- puppeter
 
 <br />
-
 # Orientações
 
 <details>
@@ -21,13 +19,13 @@ coletando dados da classificação do campeonato Brasileiro serie A 2022
   ## 👉 Com Node
  
 
-  > npm install
+  1 - npm install
   <br/>
-  > npm run dev
+  2 -  npm run dev
   <br/>
-  > faça uma requisição para a URL: http://localhost:3002/brasileirao/?serie=a
+  3 - faça uma requisição para a URL: http://localhost:3002/brasileirao/?serie=a
   <br/>
-  > RETORNO
+  4 - RETORNO
 
   {
     <br/>
