@@ -7,6 +7,7 @@ const tabela = async (serie) => {
         '--disable-setuid-sandbox',
       ],
     });
+    
     const page = await browser.newPage(serie);
     await page.goto(`https://www.cbf.com.br/futebol-brasileiro/competicoes/campeonato-brasileiro-serie-${ serie }`);
     // await page.goto(`https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-${serie}/`);
