@@ -7,4 +7,4 @@ app.get('/', (_request, response) => {
   response.json({ message: 'api ok...' });
 });
 
-app.listen(PORT, () => console.log('Online Port: ', PORT, `http://localhost:${PORT}/brasileirao`));
+app.listen(PORT, () => console.log('Online Port: ', PORT, `http://localhost:${PORT}/brasileirao?serie=b`));
